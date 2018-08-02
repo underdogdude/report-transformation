@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    background-image: url("../assets/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    height: 100%;
+    widows: 100%;
+}
+
+.title {
+    color: white;
+    margin-top: 50px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.version-text {
+    color: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.main {
+    margin-top: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
+.qr-box {
+    border-radius: 20px;
+    border: 1px solid white;
+    background : white; 
+    max-width: 70%; 
+    margin-top: 40px;
+}
+.qr-box img{
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 767px) {
+    .qr-box {
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .chart-container {
+        margin-top: 50px; 
+    }
+    .footer {
+        position: relative;
+    }
+}
+
+.highcharts-background {
+    fill: transparent !important;
+}
